@@ -1,3 +1,5 @@
+#https://help.webex.com/en-us/article/jr1i3r/Configure-Local-Gateway-on-Cisco-IOS-XE-for-Webex-Calling
+
 ntpServer = input("Enter your NTP server: ")
 print("\n")
 dnsServer = input("Enter your DNS server: if 2nd server is needed separate with space ")
