@@ -1,6 +1,6 @@
-ntpServer = input("Enter your NTP server ")
+ntpServer = input("Enter your NTP server: ")
 print("\n")
-dnsServer = input("Enter your DNS server, if 2nd server is needed separate with space ")
+dnsServer = input("Enter your DNS server: if 2nd server is needed separate with space ")
 print("\n")
 sourceInterface = input("What is the source interface (example G0/0/0, G0/0/1)? ")
 print("\n")
