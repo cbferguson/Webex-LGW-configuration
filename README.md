@@ -1,0 +1,1 @@
+Webex LGW script to configure the basic needs of a Webex LGW configuration, from control hub create the LGW and paste the items into the script, the script will create a basic config which will get the gateway to register with Webex Control Hub.
