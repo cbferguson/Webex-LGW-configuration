@@ -1,8 +1,6 @@
-#https://help.webex.com/en-us/article/jr1i3r/Configure-Local-Gateway-on-Cisco-IOS-XE-for-Webex-Calling
-
-ntpServer = input("Enter your NTP server: ")
+ntpServer = input("Enter your NTP server ")
 print("\n")
-dnsServer = input("Enter your DNS server: if 2nd server is needed separate with space ")
+dnsServer = input("Enter your DNS server, if 2nd server is needed separate with space ")
 print("\n")
 sourceInterface = input("What is the source interface (example G0/0/0, G0/0/1)? ")
 print("\n")
@@ -16,7 +14,8 @@ outboundProxy = input("Outbound Proxy Address FQDN: ")
 print("\n")
 registrarDomain = input("Registrar Domain FQDN: ")
 print("\n")
-linePort = input("Line Port: (just enter the first part before @) ")
+linePort = input("Line Port: ").strip()
+linePort = linePort.split("@")[0] 
 print("\n")
 LGW_username = input("Username: ")
 print("\n")
